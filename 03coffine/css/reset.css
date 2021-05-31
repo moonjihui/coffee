@@ -1,0 +1,16 @@
+@charset "UTF-8";
+*{margin: 0;padding: 0;font-size: 100%;}
+body{
+    line-height: 1;
+}
+ul, ol, li{  list-style: none;}
+a{text-decoration: none; color: inherit; color: #444;}
+.clear_fix::after, .clear_fix::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+table{
+    border-collapse: collapse/* 보더 두줄 이중선 안주겠다 */;
+    border-spacing: 0;
+}
